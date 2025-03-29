@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+.divider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.divider {
+  width: 50%; /* Adjust width as needed */
+  border: 2px solid black;
+}
+
+.big-button {
+  font-size: 20px; /* Make text bigger */
+  padding: 20px 24px; /* Increase button size */
+  border: none;
+  background-color: wheat;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.big-button:hover {
+  background-color: #2980b9;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
